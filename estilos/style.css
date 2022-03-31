@@ -1,0 +1,85 @@
+body{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(https://www.eleconomista.com.mx/__export/1551222838288/sites/eleconomista/img/2018/08/24/shutterstock_3623008.jpg_423392900.jpg);
+}
+.fondo {
+    margin: auto;
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+    border-radius: 5px;
+}
+.fondo:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+h1{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+div{
+    width: 100%;
+    margin: auto;
+}
+NAV{
+    background-color: #052727;
+}
+section{
+    background-color: #052727;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin:  2rem auto ;
+}
+.divSection{
+    width: 500px;
+}
+#total{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    width: 90%;
+    margin: 0.5rem;
+}
+.parrafoVerde{
+    margin: 0.5rem ;
+    font-weight: 600;
+    padding: 0.5rem;
+    background-color: #33691e;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.parrafoRojo{
+    font-weight: 600;
+    margin: 0.5rem ;
+    padding: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: #c30000;
+}
+
+#conceptos{
+    height: 50px;
+    align-self: center;
+}

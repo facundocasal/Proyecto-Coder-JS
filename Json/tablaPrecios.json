@@ -1,0 +1,22 @@
+[
+    {
+        "nombre": "Firmas",
+        "concepto" : "Cantidad de personas que firmen en el registro",
+        "precio" : "$560 x Firma"
+    },
+    {
+        "nombre": "Cedulas",
+        "concepto" : "Cantidad de cedulas que va a solicitar en el registro ",
+        "precio" : "$760 x Cedula"
+    },
+    {
+        "nombre": "Sellado",
+        "concepto" : "Es el impuesto sobre el valor de compra del vehiculo. Solo se cobra a vehiculos que sean modelo/año: 1990 en adelante",
+        "precio" : "3%"
+    },
+    {
+        "nombre": "Arancel",
+        "concepto" : "Es el Arancel por inscribir una transferencia. Se cobra por el valor de compra del vehiculo. arancel minimo de $2500",
+        "precio" : "2.5%"
+    }
+]
