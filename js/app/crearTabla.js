@@ -3,7 +3,7 @@
 
     export function crearTabla() {
         $("#tabla").empty();
-        let localJson = 'json/tablaPrecios.json'
+        let localJson = './json/tablaPrecios.json'
         $.getJSON(localJson, function (response, status) {
           if (status == "success"){           
             $("#tabla").append(`
